@@ -4,3 +4,10 @@ C:\Users\Administrateur\Desktop\LesMots\CSL_LesMots\CSL_LesMots\bin\x64\Release\
 C:\Users\Administrateur\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.csproj.CoreCompileInputs.cache
 C:\Users\Administrateur\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.exe
 C:\Users\Administrateur\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.pdb
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\bin\x64\Release\CSL_LesMots.exe.config
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\bin\x64\Release\CSL_LesMots.exe
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\bin\x64\Release\CSL_LesMots.pdb
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.exe
+C:\Users\admin\Desktop\LesMots\CSL_LesMots\CSL_LesMots\obj\x64\Release\CSL_LesMots.pdb

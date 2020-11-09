@@ -63,12 +63,16 @@ namespace CSL_LesMots
             DateTime end = DateTime.Now;
 
             using (System.IO.StreamWriter file =
-             new System.IO.StreamWriter(PATH + "elapsedTime.txt"))
+             new System.IO.StreamWriter(PATH + "output.txt"))
             {
                 {
                     file.WriteLine("Temps écoulé : " + sw.Elapsed);
                     file.WriteLine("Heure de départ : " + start);
                     file.WriteLine("Heure de fin : " + end);
+                    file.WriteLine();
+                    file.WriteLine(wm.ToString(wordsTmp));
+                    file.WriteLine();
+                   file.WriteLine(wm.DisplayWordsAndOccurences(wordsTmp));
                 }
             }
         }

@@ -30,7 +30,6 @@ namespace CSL_LesMots
         public WordManager()
         {
             numberOfFiles = NUMBER_OF_FILES;
-            words = new SortedDictionary<string, int>();
         }
 
         /// <summary>
@@ -128,26 +127,26 @@ namespace CSL_LesMots
         /// Display the number of words different and total
         /// </summary>
         /// <returns>The number of words different and total</returns>
-        public override string ToString()
+        public string ToString(Dictionary<string, int> words)
         {
             int nbWordsTotal = 0;
             foreach (KeyValuePair<string, int> entry in words)
             {
                 nbWordsTotal += entry.Value;
             }
-            return $"Nombre de mots différents : {words.Count} \t Nombre de mots totaux : {nbWordsTotal}";
+            return $"Nombre de mots différents : {words.Count}\nNombre de mots totaux : {nbWordsTotal}";
         }
 
         /// <summary>
         /// Display the number of words and their occurences
         /// </summary>
         /// <returns>The words and their occurences</returns>
-        public string DisplayWordsAndOccurences()
+        public string DisplayWordsAndOccurences(Dictionary<string, int> words)
         {
             string output = "";
             foreach (KeyValuePair<string, int> word in words)
             {
-                output += word.Key + "\t" + word.Value + "\n";
+                output += word.Key + "\t\t" + word.Value + "\n";
             }
             return output;
 
